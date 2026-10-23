@@ -1,0 +1,29 @@
+# YOmouse
+
+## Setup
+
+### Step 1: Install Dependencies
+```bash
+pip install --upgrade opencv-python mediapipe pyautogui pynput
+```
+
+### Step 2: Connect Hardware
+1. Connect your **Webcam**.
+2. Connect your **Bluetooth Neckband**.
+
+### Step 3: Run Script
+```bash
+python unified_hand_mouse.py
+```
+
+---
+
+## Controls
+
+| Action | Control |
+| :--- | :--- |
+| **Move Cursor** | Move hand in front of camera (Index finger) |
+| **Left Click** | Press **Play / Pause** on neckband |
+| **Right Click** | Press **Next Track** on neckband |
+| **Double Click** | Press **Previous Track** on neckband |
+| **Exit** | Press **`q`** in camera window |
