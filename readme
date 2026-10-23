@@ -9,7 +9,7 @@ pip install --upgrade opencv-python mediapipe pyautogui pynput
 
 ### Step 2: Connect Hardware
 1. Connect your **Webcam**.
-2. Connect your **Bluetooth Neckband**.
+2. Connect your **Bluetooth module**.
 
 ### Step 3: Run Script
 ```bash
@@ -23,7 +23,7 @@ python unified_hand_mouse.py
 | Action | Control |
 | :--- | :--- |
 | **Move Cursor** | Move hand in front of camera (Index finger) |
-| **Left Click** | Press **Play / Pause** on neckband |
-| **Right Click** | Press **Next Track** on neckband |
-| **Double Click** | Press **Previous Track** on neckband |
+| **Left Click** | Press **Play / Pause** on module |
+| **Right Click** | Press **Next Track** on module |
+| **Double Click** | Press **Previous Track** on module |
 | **Exit** | Press **`q`** in camera window |
