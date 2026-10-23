@@ -1,2 +1,0 @@
-# Gesture-mouse
-completely wireless
